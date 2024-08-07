@@ -1,0 +1,18 @@
+.layer{
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: .6s opacity;
+}
+
+.layer:hover{
+  opacity: 1;
+}
+
+.position-fixed{
+  z-index: 789465;
+}
+
+.mycolor{
+  color: var(--second-color);
+}

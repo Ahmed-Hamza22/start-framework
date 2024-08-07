@@ -1,0 +1,17 @@
+.not-found{
+  /* background-color: var(--main-color); */
+  height: 84vh;
+}
+
+._404{
+  font-size: 150px;
+  font-weight: bolder;
+  margin: 0;
+  line-height: 1;
+}
+
+.page{
+  line-height: 2;
+  font-size: 80px;
+  margin: 0;
+}

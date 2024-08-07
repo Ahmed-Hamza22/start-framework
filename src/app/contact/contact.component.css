@@ -1,0 +1,27 @@
+.contact{
+  height: 88vh;
+}
+
+.top{
+  top: 40px !important;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+
+label{
+  color: var(--main-color);
+  margin-bottom: 7px;
+  transition: .6s all;
+}
+
+button{
+  background-color: var(--main-color);
+}
+
+.btn:hover{
+  background-color: var(--main-color);
+}

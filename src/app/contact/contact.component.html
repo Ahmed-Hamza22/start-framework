@@ -1,0 +1,15 @@
+<div class="contact d-flex flex-column justify-content-center align-items-center">
+  <app-star ComponentName="contact section" lineColor="#2C3E50"></app-star>
+  <div class="container-fluid">
+    <form class="w-50 p-3 mx-auto mt-2">
+      
+      @for (field of formInputs; track $index) {
+        <label [for]="field.id" class="position-relative top-0 top" [class.top]="!field.value">{{field.label}} : </label>
+        <input [(ngModel)]="field.value" [id]="field.id" [name]="field.name" [type]="field.type" [placeholder]="field.placeholder" class="form-control border-0 border-bottom rounded-0 py-3 position-relative">        
+      }
+      
+      <button type="button" class="btn mt-4 text-white"> Send Message </button>
+    
+    </form>
+  </div>
+</div>

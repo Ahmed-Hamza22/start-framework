@@ -1,0 +1,22 @@
+.nav-link,.navbar-brand{
+  color: #fff;
+}
+
+.navbar-brand{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.nav-link{
+  font-weight: 700;
+}
+
+.my-nav-active{
+  background-color: var(--main-color);
+  border-radius: 10px;
+}
+
+.navbar{
+  padding-block: 24px;
+  transition: all 0.5s;
+}

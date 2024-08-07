@@ -1,0 +1,15 @@
+.footer{
+  background-color: var(--second-color);
+}
+
+.icons i{
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footer-end{
+  background-color: #1a252f;
+  padding: 30px;
+}
+
